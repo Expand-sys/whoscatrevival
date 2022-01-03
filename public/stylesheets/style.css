@@ -1,0 +1,78 @@
+* {
+  font: 600 16px system-ui, sans-serif;
+}
+form {
+  width: 320px;
+  margin: 50px auto;
+  text-align: center;
+}
+form > legend {
+  font-size: 36px;
+  color: #3c5b6d;
+  padding: 150px 0 20px;
+}
+form > input[type=file], form > input[type=file]:before {
+  display: block;
+  width: 240px;
+  height: 50px;
+  margin: 0 auto;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid #3c5b6d;
+}
+form > input[type=file] {
+  position: relative;
+}
+form > input[type=file]:before {
+  content: 'Choose a Photo';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  color: #3c5b6d;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 3px;
+  border: 2px solid #3c5b6d;
+}
+form > button[type=submit] {
+  border-radius: 3px;
+  font-size: 18px;
+  display: block;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background: #2a76cd;
+  width: 240px;
+  margin: 20px auto;
+  padding: 15px 20px;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+}
+img{
+  max-height: 150px;
+}
+.masonry-with-columns {
+  flex-wrap: wrap;
+  div {
+    height: 150px;
+    line-height: 150px;
+    background: #EC985A;
+    color: white;
+    margin: 0 1rem 1rem 0;
+    text-align: center;
+    font-family: system-ui;
+    font-weight: 900;
+    font-size: 2rem;
+    flex: 1 0 auto;
+  }
+  @for $i from 1 through 36 {
+    div:nth-child(#{$i}) {
+      $h: (random(400) + 70) + px;
+      width: $h;
+    }
+  }
+}

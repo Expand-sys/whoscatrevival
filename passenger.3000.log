@@ -1,0 +1,1014 @@
+[ N 2020-11-26 07:00:58.4275 122061/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-11-26 07:00:58.4380 122064/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-11-26 07:00:58.4381 122064/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-11-26 07:00:58.5099 122064/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 122064
+App 122125 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVUfDB6/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606334460.684)
+App 122125 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVUfDB6/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606334460.686)
+App 122125 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVUfDB6/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606334460.701)
+App 122125 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVUfDB6/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606334460.701)
+App 122125 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVUfDB6/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606334460.701)
+App 122125 output: 2020-11-26 07:01:00.869207: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+App 122125 output: 2020-11-26 07:01:00.878197: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3601000000 Hz
+App 122125 output: 2020-11-26 07:01:00.878895: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x557fd9ed76d0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+App 122125 output: 2020-11-26 07:01:00.878905: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+App 122125 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVUfDB6/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606334460.895)
+App 122125 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVUfDB6/response/steps/subprocess_app_load_or_exec/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606334460.895)
+App 122125 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVUfDB6/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606334460.895)
+App 122125 output: (node:122125) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+App 122125 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 122125 output: Server started on port 3000...
+App 122125 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVUfDB6/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606334460.898)
+App 122125 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVUfDB6/response/steps/subprocess_listen/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606334460.898)
+[ N 2020-11-26 07:01:02.0279 122064/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-11-26 07:08:10.7833 122064/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-11-26 07:08:10.7833 122064/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-11-26 07:08:10.7833 122064/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 122125, application /home/harrison/whoscatisthat (development)
+[ N 2020-11-26 07:08:10.7835 122064/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-11-26 07:08:10.7835 122064/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-11-26 07:08:10.7835 122064/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-11-26 07:08:10.7835 122064/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2020-11-26 07:08:10.7835 122064/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2020-11-26 07:08:10.7835 122064/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2020-11-26 07:08:10.7835 122064/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2020-11-26 07:08:10.7835 122064/Tt Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2020-11-26 07:08:10.7835 122064/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-11-26 07:08:10.7835 122064/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-11-26 07:08:10.7835 122064/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-11-26 07:08:10.7835 122064/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-11-26 07:08:10.7835 122064/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2020-11-26 07:08:10.7835 122064/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-11-26 07:08:10.7835 122064/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2020-11-26 07:08:10.7835 122064/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-11-26 07:08:10.7835 122064/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2020-11-26 07:08:10.7835 122064/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2020-11-26 07:08:10.7835 122064/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2020-11-26 07:08:10.7836 122064/Tt Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2020-11-26 07:08:10.7836 122064/Tw Ser/Server.h:901 ]: [ServerThr.13] Freed 0 spare client objects
+[ N 2020-11-26 07:08:10.7836 122064/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-11-26 07:08:10.7836 122064/T12 Ser/Server.h:901 ]: [ServerThr.16] Freed 0 spare client objects
+[ N 2020-11-26 07:08:10.7836 122064/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-11-26 07:08:10.7836 122064/T14 Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-11-26 07:08:10.7836 122064/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-11-26 07:08:10.7836 122064/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2020-11-26 07:08:10.7836 122064/Tw Ser/Server.h:558 ]: [ServerThr.13] Shutdown finished
+[ N 2020-11-26 07:08:10.7837 122064/T12 Ser/Server.h:558 ]: [ServerThr.16] Shutdown finished
+[ N 2020-11-26 07:08:10.7837 122064/T14 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-11-26 07:08:10.7835 122064/Tz Ser/Server.h:901 ]: [ServerThr.14] Freed 0 spare client objects
+[ N 2020-11-26 07:08:10.7837 122064/T10 Ser/Server.h:901 ]: [ServerThr.15] Freed 0 spare client objects
+[ N 2020-11-26 07:08:10.7837 122064/Tz Ser/Server.h:558 ]: [ServerThr.14] Shutdown finished
+[ N 2020-11-26 07:08:10.7837 122064/T10 Ser/Server.h:558 ]: [ServerThr.15] Shutdown finished
+[ N 2020-11-26 07:08:10.7838 122064/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 122125, application /home/harrison/whoscatisthat (development)
+[ N 2020-11-26 07:08:12.4076 122064/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-11-26 07:08:16.6379 123140/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-11-26 07:08:16.6475 123143/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-11-26 07:08:16.6476 123143/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-11-26 07:08:16.6772 123143/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 123143
+App 123206 output: Warning: unable to write to /tmp/passenger.spawn.XXXX699NDG/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606334898.808)
+App 123206 output: Warning: unable to write to /tmp/passenger.spawn.XXXX699NDG/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606334898.81)
+App 123206 output: Warning: unable to write to /tmp/passenger.spawn.XXXX699NDG/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606334898.824)
+App 123206 output: Warning: unable to write to /tmp/passenger.spawn.XXXX699NDG/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606334898.824)
+App 123206 output: Warning: unable to write to /tmp/passenger.spawn.XXXX699NDG/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606334898.825)
+App 123206 output: /home/harrison/whoscatisthat/app.js:18
+App 123206 output: tf.setBackend('cpu');
+App 123206 output: ^
+App 123206 output: 
+App 123206 output: ReferenceError: tf is not defined
+App 123206 output:     at Object.<anonymous> (/home/harrison/whoscatisthat/app.js:18:1)
+App 123206 output:     at Module._compile (node:internal/modules/cjs/loader:1102:14)
+App 123206 output:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+App 123206 output:     at Module.load (node:internal/modules/cjs/loader:967:32)
+App 123206 output:     at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+App 123206 output:     at Module.require (node:internal/modules/cjs/loader:991:19)
+App 123206 output:     at Module.require (/usr/lib/passenger/src/helper-scripts/node-loader.js:80:25)
+App 123206 output:     at require (node:internal/modules/cjs/helpers:92:18)
+App 123206 output:     at loadApplication (/usr/lib/passenger/src/helper-scripts/node-loader.js:243:2)
+App 123206 output:     at setupEnvironment (/usr/lib/passenger/src/helper-scripts/node-loader.js:214:2)
+[ E 2020-11-26 07:08:18.9462 123143/T17 age/Cor/App/Implementation.cpp:221 ]: Could not spawn process for application /home/harrison/whoscatisthat: The application process exited prematurely.
+  Error ID: d506bf28
+  Error details saved to: /tmp/passenger-error-9Xv7OH.html
+
+[ E 2020-11-26 07:08:18.9510 123143/T8 age/Cor/Con/CheckoutSession.cpp:274 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is d506bf28. Please see earlier logs for details about the error.
+[ N 2020-11-26 07:08:20.0513 123143/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-11-26 07:10:43.7258 123143/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-11-26 07:10:43.7259 123143/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-11-26 07:10:43.7259 123143/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-11-26 07:10:43.7259 123143/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-11-26 07:10:43.7259 123143/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2020-11-26 07:10:43.7259 123143/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-11-26 07:10:43.7259 123143/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2020-11-26 07:10:43.7259 123143/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2020-11-26 07:10:43.7259 123143/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-11-26 07:10:43.7259 123143/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-11-26 07:10:43.7259 123143/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-11-26 07:10:43.7259 123143/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2020-11-26 07:10:43.7260 123143/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2020-11-26 07:10:43.7260 123143/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2020-11-26 07:10:43.7260 123143/Tw Ser/Server.h:901 ]: [ServerThr.13] Freed 0 spare client objects
+[ N 2020-11-26 07:10:43.7260 123143/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-11-26 07:10:43.7260 123143/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2020-11-26 07:10:43.7260 123143/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2020-11-26 07:10:43.7260 123143/Ty Ser/Server.h:901 ]: [ServerThr.14] Freed 0 spare client objects
+[ N 2020-11-26 07:10:43.7260 123143/T10 Ser/Server.h:901 ]: [ServerThr.15] Freed 0 spare client objects
+[ N 2020-11-26 07:10:43.7260 123143/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-11-26 07:10:43.7260 123143/T12 Ser/Server.h:901 ]: [ServerThr.16] Freed 0 spare client objects
+[ N 2020-11-26 07:10:43.7259 123143/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-11-26 07:10:43.7260 123143/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2020-11-26 07:10:43.7260 123143/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2020-11-26 07:10:43.7260 123143/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2020-11-26 07:10:43.7260 123143/Tw Ser/Server.h:558 ]: [ServerThr.13] Shutdown finished
+[ N 2020-11-26 07:10:43.7260 123143/T14 Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-11-26 07:10:43.7261 123143/Ty Ser/Server.h:558 ]: [ServerThr.14] Shutdown finished
+[ N 2020-11-26 07:10:43.7261 123143/T10 Ser/Server.h:558 ]: [ServerThr.15] Shutdown finished
+[ N 2020-11-26 07:10:43.7261 123143/T12 Ser/Server.h:558 ]: [ServerThr.16] Shutdown finished
+[ N 2020-11-26 07:10:43.7261 123143/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-11-26 07:10:43.7261 123143/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2020-11-26 07:10:43.7259 123143/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-11-26 07:10:43.7261 123143/T14 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-11-26 07:10:43.7261 123143/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-11-26 07:10:45.2346 123143/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-11-26 07:10:45.9595 123539/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-11-26 07:10:45.9685 123542/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-11-26 07:10:45.9686 123542/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-11-26 07:10:46.0253 123542/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 123542
+App 123602 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVtTHyQ/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335048.195)
+App 123602 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVtTHyQ/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335048.197)
+App 123602 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVtTHyQ/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335048.212)
+App 123602 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVtTHyQ/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335048.213)
+App 123602 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVtTHyQ/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335048.213)
+App 123602 output: 2020-11-26 07:10:48.378375: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+App 123602 output: 2020-11-26 07:10:48.388125: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3601000000 Hz
+App 123602 output: 2020-11-26 07:10:48.388586: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55ca8241e790 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+App 123602 output: 2020-11-26 07:10:48.388597: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+App 123602 output: cpu
+App 123602 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVtTHyQ/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335048.408)
+App 123602 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVtTHyQ/response/steps/subprocess_app_load_or_exec/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335048.408)
+App 123602 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVtTHyQ/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335048.408)
+App 123602 output: (node:123602) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+App 123602 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 123602 output: Server started on port 3000...
+App 123602 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVtTHyQ/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335048.41)
+App 123602 output: Warning: unable to write to /tmp/passenger.spawn.XXXXVtTHyQ/response/steps/subprocess_listen/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335048.41)
+[ N 2020-11-26 07:10:49.3628 123542/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-11-26 07:11:32.0335 123542/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-11-26 07:11:32.0335 123542/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-11-26 07:11:32.0336 123542/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 123602, application /home/harrison/whoscatisthat (development)
+[ N 2020-11-26 07:11:32.0337 123542/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-11-26 07:11:32.0337 123542/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-11-26 07:11:32.0337 123542/Tl Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2020-11-26 07:11:32.0337 123542/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2020-11-26 07:11:32.0337 123542/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-11-26 07:11:32.0337 123542/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2020-11-26 07:11:32.0337 123542/Tt Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2020-11-26 07:11:32.0337 123542/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-11-26 07:11:32.0337 123542/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2020-11-26 07:11:32.0337 123542/Tl Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2020-11-26 07:11:32.0337 123542/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-11-26 07:11:32.0337 123542/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2020-11-26 07:11:32.0337 123542/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-11-26 07:11:32.0337 123542/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-11-26 07:11:32.0337 123542/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-11-26 07:11:32.0337 123542/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2020-11-26 07:11:32.0337 123542/Tt Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2020-11-26 07:11:32.0337 123542/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2020-11-26 07:11:32.0338 123542/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2020-11-26 07:11:32.0338 123542/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-11-26 07:11:32.0338 123542/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-11-26 07:11:32.0338 123542/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-11-26 07:11:32.0338 123542/Tw Ser/Server.h:901 ]: [ServerThr.13] Freed 0 spare client objects
+[ N 2020-11-26 07:11:32.0338 123542/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-11-26 07:11:32.0338 123542/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2020-11-26 07:11:32.0338 123542/Ty Ser/Server.h:901 ]: [ServerThr.14] Freed 0 spare client objects
+[ N 2020-11-26 07:11:32.0338 123542/T12 Ser/Server.h:901 ]: [ServerThr.16] Freed 0 spare client objects
+[ N 2020-11-26 07:11:32.0338 123542/Tw Ser/Server.h:558 ]: [ServerThr.13] Shutdown finished
+[ N 2020-11-26 07:11:32.0338 123542/T11 Ser/Server.h:901 ]: [ServerThr.15] Freed 0 spare client objects
+[ N 2020-11-26 07:11:32.0338 123542/Ty Ser/Server.h:558 ]: [ServerThr.14] Shutdown finished
+[ N 2020-11-26 07:11:32.0338 123542/T12 Ser/Server.h:558 ]: [ServerThr.16] Shutdown finished
+[ N 2020-11-26 07:11:32.0339 123542/T11 Ser/Server.h:558 ]: [ServerThr.15] Shutdown finished
+[ N 2020-11-26 07:11:32.0339 123542/T14 Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-11-26 07:11:32.0339 123542/T14 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-11-26 07:11:32.0340 123542/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 123602, application /home/harrison/whoscatisthat (development)
+[ N 2020-11-26 07:11:33.7243 123542/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-11-26 07:11:46.5467 123866/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-11-26 07:11:46.5558 123869/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-11-26 07:11:46.5558 123869/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-11-26 07:11:46.6291 123869/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 123869
+App 123930 output: Warning: unable to write to /tmp/passenger.spawn.XXXX0TYEBy/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335108.787)
+App 123930 output: Warning: unable to write to /tmp/passenger.spawn.XXXX0TYEBy/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335108.788)
+App 123930 output: Warning: unable to write to /tmp/passenger.spawn.XXXX0TYEBy/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335108.803)
+App 123930 output: Warning: unable to write to /tmp/passenger.spawn.XXXX0TYEBy/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335108.803)
+App 123930 output: Warning: unable to write to /tmp/passenger.spawn.XXXX0TYEBy/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335108.803)
+App 123930 output: 2020-11-26 07:11:48.966167: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+App 123930 output: 2020-11-26 07:11:48.975397: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3601000000 Hz
+App 123930 output: 2020-11-26 07:11:48.975929: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5646c6aa8f30 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+App 123930 output: 2020-11-26 07:11:48.975939: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+App 123930 output: tensorflow
+App 123930 output: Warning: unable to write to /tmp/passenger.spawn.XXXX0TYEBy/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335108.994)
+App 123930 output: Warning: unable to write to /tmp/passenger.spawn.XXXX0TYEBy/response/steps/subprocess_app_load_or_exec/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335108.994)
+App 123930 output: Warning: unable to write to /tmp/passenger.spawn.XXXX0TYEBy/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335108.994)
+App 123930 output: (node:123930) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+App 123930 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 123930 output: Server started on port 3000...
+App 123930 output: Warning: unable to write to /tmp/passenger.spawn.XXXX0TYEBy/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335108.996)
+App 123930 output: Warning: unable to write to /tmp/passenger.spawn.XXXX0TYEBy/response/steps/subprocess_listen/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335108.996)
+App 123930 output: /home/harrison/whoscatisthat/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:3129
+App 123930 output:                             throw new Error("Backend name '" + backendName + "' not found in registry");
+App 123930 output:                                   ^
+App 123930 output: 
+App 123930 output: Error: Backend name 'wasm' not found in registry
+App 123930 output:     at Engine.<anonymous> (/home/harrison/whoscatisthat/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:3129:35)
+App 123930 output:     at step (/home/harrison/whoscatisthat/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:81:23)
+App 123930 output:     at Object.next (/home/harrison/whoscatisthat/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:62:53)
+App 123930 output:     at /home/harrison/whoscatisthat/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:55:71
+App 123930 output:     at new Promise (<anonymous>)
+App 123930 output:     at __awaiter (/home/harrison/whoscatisthat/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:51:12)
+App 123930 output:     at Engine.setBackend (/home/harrison/whoscatisthat/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:3123:16)
+App 123930 output:     at Object.setBackend (/home/harrison/whoscatisthat/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:8994:19)
+App 123930 output:     at Object.<anonymous> (/home/harrison/whoscatisthat/app.js:19:4)
+App 123930 output:     at Module._compile (node:internal/modules/cjs/loader:1102:14)
+[ E 2020-11-26 07:11:49.0699 123869/T17 age/Cor/App/Implementation.cpp:221 ]: Could not spawn process for application /home/harrison/whoscatisthat: The application process exited prematurely.
+  Error ID: 09d07ba6
+  Error details saved to: /tmp/passenger-error-bvCdoB.html
+
+[ E 2020-11-26 07:11:49.0748 123869/T8 age/Cor/Con/CheckoutSession.cpp:274 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 09d07ba6. Please see earlier logs for details about the error.
+[ N 2020-11-26 07:11:49.9983 123869/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-11-26 07:13:21.1623 123869/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-11-26 07:13:21.1624 123869/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-11-26 07:13:21.1624 123869/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-11-26 07:13:21.1624 123869/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-11-26 07:13:21.1624 123869/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2020-11-26 07:13:21.1624 123869/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2020-11-26 07:13:21.1625 123869/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-11-26 07:13:21.1625 123869/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-11-26 07:13:21.1625 123869/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-11-26 07:13:21.1625 123869/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2020-11-26 07:13:21.1625 123869/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-11-26 07:13:21.1625 123869/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-11-26 07:13:21.1625 123869/Tw Ser/Server.h:901 ]: [ServerThr.13] Freed 0 spare client objects
+[ N 2020-11-26 07:13:21.1625 123869/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2020-11-26 07:13:21.1625 123869/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2020-11-26 07:13:21.1625 123869/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2020-11-26 07:13:21.1625 123869/Ty Ser/Server.h:901 ]: [ServerThr.14] Freed 0 spare client objects
+[ N 2020-11-26 07:13:21.1625 123869/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2020-11-26 07:13:21.1625 123869/T10 Ser/Server.h:901 ]: [ServerThr.15] Freed 0 spare client objects
+[ N 2020-11-26 07:13:21.1625 123869/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-11-26 07:13:21.1625 123869/T12 Ser/Server.h:901 ]: [ServerThr.16] Freed 0 spare client objects
+[ N 2020-11-26 07:13:21.1625 123869/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2020-11-26 07:13:21.1625 123869/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-11-26 07:13:21.1625 123869/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-11-26 07:13:21.1625 123869/Tw Ser/Server.h:558 ]: [ServerThr.13] Shutdown finished
+[ N 2020-11-26 07:13:21.1625 123869/T14 Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-11-26 07:13:21.1625 123869/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2020-11-26 07:13:21.1625 123869/Ty Ser/Server.h:558 ]: [ServerThr.14] Shutdown finished
+[ N 2020-11-26 07:13:21.1626 123869/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2020-11-26 07:13:21.1626 123869/T10 Ser/Server.h:558 ]: [ServerThr.15] Shutdown finished
+[ N 2020-11-26 07:13:21.1626 123869/T12 Ser/Server.h:558 ]: [ServerThr.16] Shutdown finished
+[ N 2020-11-26 07:13:21.1626 123869/T14 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-11-26 07:13:21.1625 123869/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-11-26 07:13:21.1625 123869/Tl Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2020-11-26 07:13:21.1626 123869/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-11-26 07:13:21.1626 123869/Tl Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2020-11-26 07:13:22.6246 123869/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-11-26 07:14:40.1279 124199/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-11-26 07:14:40.1369 124202/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-11-26 07:14:40.1370 124202/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-11-26 07:14:40.1809 124202/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 124202
+App 124262 output: Warning: unable to write to /tmp/passenger.spawn.XXXXpheHHM/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335282.313)
+App 124262 output: Warning: unable to write to /tmp/passenger.spawn.XXXXpheHHM/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335282.315)
+App 124262 output: Warning: unable to write to /tmp/passenger.spawn.XXXXpheHHM/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335282.329)
+App 124262 output: Warning: unable to write to /tmp/passenger.spawn.XXXXpheHHM/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335282.329)
+App 124262 output: Warning: unable to write to /tmp/passenger.spawn.XXXXpheHHM/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335282.329)
+App 124262 output: 2020-11-26 07:14:42.495221: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+App 124262 output: 2020-11-26 07:14:42.504308: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3601000000 Hz
+App 124262 output: 2020-11-26 07:14:42.504969: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55e5f8b236d0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+App 124262 output: 2020-11-26 07:14:42.504979: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+App 124262 output: Warning: unable to write to /tmp/passenger.spawn.XXXXpheHHM/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335282.523)
+App 124262 output: Warning: unable to write to /tmp/passenger.spawn.XXXXpheHHM/response/steps/subprocess_app_load_or_exec/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335282.523)
+App 124262 output: Warning: unable to write to /tmp/passenger.spawn.XXXXpheHHM/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335282.523)
+App 124262 output: (node:124262) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+App 124262 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 124262 output: Server started on port 3000...
+App 124262 output: Warning: unable to write to /tmp/passenger.spawn.XXXXpheHHM/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335282.525)
+App 124262 output: Warning: unable to write to /tmp/passenger.spawn.XXXXpheHHM/response/steps/subprocess_listen/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335282.525)
+App 124262 output: /home/harrison/whoscatisthat/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:3129
+App 124262 output:                             throw new Error("Backend name '" + backendName + "' not found in registry");
+App 124262 output:                                   ^
+App 124262 output: 
+App 124262 output: Error: Backend name 'wasm' not found in registry
+App 124262 output:     at Engine.<anonymous> (/home/harrison/whoscatisthat/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:3129:35)
+App 124262 output:     at step (/home/harrison/whoscatisthat/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:81:23)
+App 124262 output:     at Object.next (/home/harrison/whoscatisthat/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:62:53)
+App 124262 output:     at /home/harrison/whoscatisthat/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:55:71
+App 124262 output:     at new Promise (<anonymous>)
+App 124262 output:     at __awaiter (/home/harrison/whoscatisthat/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:51:12)
+App 124262 output:     at Engine.setBackend (/home/harrison/whoscatisthat/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:3123:16)
+App 124262 output:     at Object.setBackend (/home/harrison/whoscatisthat/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:8994:19)
+App 124262 output:     at Object.<anonymous> (/home/harrison/whoscatisthat/app.js:22:4)
+App 124262 output:     at Module._compile (node:internal/modules/cjs/loader:1102:14)
+[ E 2020-11-26 07:14:42.6416 124202/T17 age/Cor/App/Implementation.cpp:221 ]: Could not spawn process for application /home/harrison/whoscatisthat: The application process exited prematurely.
+  Error ID: afbd991b
+  Error details saved to: /tmp/passenger-error-6rfgML.html
+
+[ E 2020-11-26 07:14:42.6604 124202/T8 age/Cor/Con/CheckoutSession.cpp:274 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is afbd991b. Please see earlier logs for details about the error.
+[ N 2020-11-26 07:14:43.5460 124202/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-11-26 07:18:01.4835 124202/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-11-26 07:18:01.4836 124202/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-11-26 07:18:01.4836 124202/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-11-26 07:18:01.4836 124202/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-11-26 07:18:01.4836 124202/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-11-26 07:18:01.4837 124202/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-11-26 07:18:01.4837 124202/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-11-26 07:18:01.4837 124202/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2020-11-26 07:18:01.4837 124202/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2020-11-26 07:18:01.4837 124202/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2020-11-26 07:18:01.4837 124202/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-11-26 07:18:01.4837 124202/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-11-26 07:18:01.4837 124202/Tt Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2020-11-26 07:18:01.4837 124202/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2020-11-26 07:18:01.4837 124202/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2020-11-26 07:18:01.4837 124202/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2020-11-26 07:18:01.4837 124202/Tv Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2020-11-26 07:18:01.4837 124202/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-11-26 07:18:01.4837 124202/Tx Ser/Server.h:901 ]: [ServerThr.13] Freed 0 spare client objects
+[ N 2020-11-26 07:18:01.4837 124202/T12 Ser/Server.h:901 ]: [ServerThr.16] Freed 0 spare client objects
+[ N 2020-11-26 07:18:01.4837 124202/Ty Ser/Server.h:901 ]: [ServerThr.14] Freed 0 spare client objects
+[ N 2020-11-26 07:18:01.4837 124202/T10 Ser/Server.h:901 ]: [ServerThr.15] Freed 0 spare client objects
+[ N 2020-11-26 07:18:01.4837 124202/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2020-11-26 07:18:01.4838 124202/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-11-26 07:18:01.4838 124202/Tt Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2020-11-26 07:18:01.4838 124202/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2020-11-26 07:18:01.4838 124202/Tv Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2020-11-26 07:18:01.4838 124202/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-11-26 07:18:01.4838 124202/T14 Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-11-26 07:18:01.4838 124202/Tx Ser/Server.h:558 ]: [ServerThr.13] Shutdown finished
+[ N 2020-11-26 07:18:01.4838 124202/T12 Ser/Server.h:558 ]: [ServerThr.16] Shutdown finished
+[ N 2020-11-26 07:18:01.4839 124202/Ty Ser/Server.h:558 ]: [ServerThr.14] Shutdown finished
+[ N 2020-11-26 07:18:01.4839 124202/T10 Ser/Server.h:558 ]: [ServerThr.15] Shutdown finished
+[ N 2020-11-26 07:18:01.4839 124202/T14 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-11-26 07:18:01.4837 124202/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-11-26 07:18:01.4840 124202/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-11-26 07:18:03.1528 124651/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-11-26 07:18:03.1621 124654/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-11-26 07:18:03.1622 124654/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-11-26 07:18:03.1759 124202/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-11-26 07:18:03.2206 124654/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 124654
+App 124723 output: Warning: unable to write to /tmp/passenger.spawn.XXXXM8IsTY/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335485.388)
+App 124723 output: Warning: unable to write to /tmp/passenger.spawn.XXXXM8IsTY/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335485.39)
+App 124723 output: Warning: unable to write to /tmp/passenger.spawn.XXXXM8IsTY/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335485.404)
+App 124723 output: Warning: unable to write to /tmp/passenger.spawn.XXXXM8IsTY/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335485.405)
+App 124723 output: Warning: unable to write to /tmp/passenger.spawn.XXXXM8IsTY/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335485.405)
+App 124723 output: /home/harrison/whoscatisthat/app.js:19
+App 124723 output: import {setWasmPath} from '@tensorflow/tfjs-backend-wasm';
+App 124723 output: ^^^^^^
+App 124723 output: 
+App 124723 output: SyntaxError: Cannot use import statement outside a module
+App 124723 output:     at wrapSafe (node:internal/modules/cjs/loader:1018:16)
+App 124723 output:     at Module._compile (node:internal/modules/cjs/loader:1066:27)
+App 124723 output:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+App 124723 output:     at Module.load (node:internal/modules/cjs/loader:967:32)
+App 124723 output:     at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+App 124723 output:     at Module.require (node:internal/modules/cjs/loader:991:19)
+App 124723 output:     at Module.require (/usr/lib/passenger/src/helper-scripts/node-loader.js:80:25)
+App 124723 output:     at require (node:internal/modules/cjs/helpers:92:18)
+App 124723 output:     at loadApplication (/usr/lib/passenger/src/helper-scripts/node-loader.js:243:2)
+App 124723 output:     at setupEnvironment (/usr/lib/passenger/src/helper-scripts/node-loader.js:214:2)
+[ E 2020-11-26 07:18:05.4723 124654/T17 age/Cor/App/Implementation.cpp:221 ]: Could not spawn process for application /home/harrison/whoscatisthat: The application process exited prematurely.
+  Error ID: 81923a7f
+  Error details saved to: /tmp/passenger-error-5wRtQV.html
+
+[ E 2020-11-26 07:18:05.4770 124654/T8 age/Cor/Con/CheckoutSession.cpp:274 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 81923a7f. Please see earlier logs for details about the error.
+[ N 2020-11-26 07:18:06.5420 124654/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-11-26 07:19:00.0333 124654/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-11-26 07:19:00.0334 124654/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-11-26 07:19:00.0335 124654/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-11-26 07:19:00.0335 124654/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-11-26 07:19:00.0335 124654/Tj Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-11-26 07:19:00.0335 124654/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2020-11-26 07:19:00.0335 124654/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-11-26 07:19:00.0335 124654/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-11-26 07:19:00.0335 124654/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-11-26 07:19:00.0336 124654/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-11-26 07:19:00.0336 124654/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-11-26 07:19:00.0336 124654/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2020-11-26 07:19:00.0336 124654/Tj Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-11-26 07:19:00.0336 124654/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2020-11-26 07:19:00.0336 124654/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-11-26 07:19:00.0336 124654/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-11-26 07:19:00.0336 124654/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2020-11-26 07:19:00.0336 124654/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-11-26 07:19:00.0336 124654/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2020-11-26 07:19:00.0336 124654/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2020-11-26 07:19:00.0336 124654/T10 Ser/Server.h:901 ]: [ServerThr.15] Freed 0 spare client objects
+[ N 2020-11-26 07:19:00.0336 124654/Ty Ser/Server.h:901 ]: [ServerThr.14] Freed 0 spare client objects
+[ N 2020-11-26 07:19:00.0336 124654/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2020-11-26 07:19:00.0336 124654/T12 Ser/Server.h:901 ]: [ServerThr.16] Freed 0 spare client objects
+[ N 2020-11-26 07:19:00.0336 124654/T14 Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-11-26 07:19:00.0336 124654/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2020-11-26 07:19:00.0336 124654/Tw Ser/Server.h:901 ]: [ServerThr.13] Freed 0 spare client objects
+[ N 2020-11-26 07:19:00.0336 124654/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2020-11-26 07:19:00.0337 124654/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2020-11-26 07:19:00.0337 124654/T10 Ser/Server.h:558 ]: [ServerThr.15] Shutdown finished
+[ N 2020-11-26 07:19:00.0337 124654/Ty Ser/Server.h:558 ]: [ServerThr.14] Shutdown finished
+[ N 2020-11-26 07:19:00.0337 124654/T12 Ser/Server.h:558 ]: [ServerThr.16] Shutdown finished
+[ N 2020-11-26 07:19:00.0337 124654/T14 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-11-26 07:19:00.0337 124654/Tw Ser/Server.h:558 ]: [ServerThr.13] Shutdown finished
+[ N 2020-11-26 07:19:00.0336 124654/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2020-11-26 07:19:00.0337 124654/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2020-11-26 07:19:01.2864 124886/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-11-26 07:19:01.2961 124889/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-11-26 07:19:01.2962 124889/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-11-26 07:19:01.3438 124889/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 124889
+[ N 2020-11-26 07:19:01.5489 124654/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+App 124955 output: Warning: unable to write to /tmp/passenger.spawn.XXXXRbuKwG/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335543.461)
+App 124955 output: Warning: unable to write to /tmp/passenger.spawn.XXXXRbuKwG/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335543.462)
+App 124955 output: Warning: unable to write to /tmp/passenger.spawn.XXXXRbuKwG/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335543.477)
+App 124955 output: Warning: unable to write to /tmp/passenger.spawn.XXXXRbuKwG/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335543.477)
+App 124955 output: Warning: unable to write to /tmp/passenger.spawn.XXXXRbuKwG/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335543.477)
+App 124955 output: /home/harrison/whoscatisthat/app.js:6
+App 124955 output:   import {setWasmPath} from '@tensorflow/tfjs-backend-wasm';
+App 124955 output:   ^^^^^^
+App 124955 output: 
+App 124955 output: SyntaxError: Cannot use import statement outside a module
+App 124955 output:     at wrapSafe (node:internal/modules/cjs/loader:1018:16)
+App 124955 output:     at Module._compile (node:internal/modules/cjs/loader:1066:27)
+App 124955 output:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+App 124955 output:     at Module.load (node:internal/modules/cjs/loader:967:32)
+App 124955 output:     at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+App 124955 output:     at Module.require (node:internal/modules/cjs/loader:991:19)
+App 124955 output:     at Module.require (/usr/lib/passenger/src/helper-scripts/node-loader.js:80:25)
+App 124955 output:     at require (node:internal/modules/cjs/helpers:92:18)
+App 124955 output:     at loadApplication (/usr/lib/passenger/src/helper-scripts/node-loader.js:243:2)
+App 124955 output:     at setupEnvironment (/usr/lib/passenger/src/helper-scripts/node-loader.js:214:2)
+[ E 2020-11-26 07:19:03.5882 124889/T17 age/Cor/App/Implementation.cpp:221 ]: Could not spawn process for application /home/harrison/whoscatisthat: The application process exited prematurely.
+  Error ID: 1086cc0c
+  Error details saved to: /tmp/passenger-error-i6hqzG.html
+
+[ E 2020-11-26 07:19:03.6042 124889/T8 age/Cor/Con/CheckoutSession.cpp:274 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 1086cc0c. Please see earlier logs for details about the error.
+[ N 2020-11-26 07:19:04.7405 124889/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-11-26 07:20:03.4942 124889/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-11-26 07:20:03.4943 124889/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-11-26 07:20:03.4944 124889/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-11-26 07:20:03.4944 124889/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-11-26 07:20:03.4944 124889/Tf Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-11-26 07:20:03.4944 124889/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-11-26 07:20:03.4944 124889/Tj Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-11-26 07:20:03.4944 124889/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-11-26 07:20:03.4945 124889/Tz Ser/Server.h:901 ]: [ServerThr.14] Freed 0 spare client objects
+[ N 2020-11-26 07:20:03.4944 124889/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2020-11-26 07:20:03.4944 124889/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2020-11-26 07:20:03.4944 124889/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-11-26 07:20:03.4944 124889/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-11-26 07:20:03.4944 124889/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2020-11-26 07:20:03.4944 124889/Tv Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2020-11-26 07:20:03.4944 124889/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2020-11-26 07:20:03.4945 124889/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-11-26 07:20:03.4945 124889/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-11-26 07:20:03.4945 124889/T12 Ser/Server.h:901 ]: [ServerThr.16] Freed 0 spare client objects
+[ N 2020-11-26 07:20:03.4945 124889/Tj Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-11-26 07:20:03.4945 124889/Tw Ser/Server.h:901 ]: [ServerThr.13] Freed 0 spare client objects
+[ N 2020-11-26 07:20:03.4945 124889/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-11-26 07:20:03.4945 124889/Tz Ser/Server.h:558 ]: [ServerThr.14] Shutdown finished
+[ N 2020-11-26 07:20:03.4945 124889/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2020-11-26 07:20:03.4945 124889/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2020-11-26 07:20:03.4946 124889/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2020-11-26 07:20:03.4946 124889/Tv Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2020-11-26 07:20:03.4946 124889/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2020-11-26 07:20:03.4946 124889/T12 Ser/Server.h:558 ]: [ServerThr.16] Shutdown finished
+[ N 2020-11-26 07:20:03.4946 124889/T10 Ser/Server.h:901 ]: [ServerThr.15] Freed 0 spare client objects
+[ N 2020-11-26 07:20:03.4947 124889/Tw Ser/Server.h:558 ]: [ServerThr.13] Shutdown finished
+[ N 2020-11-26 07:20:03.4947 124889/T10 Ser/Server.h:558 ]: [ServerThr.15] Shutdown finished
+[ N 2020-11-26 07:20:03.4944 124889/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2020-11-26 07:20:03.4948 124889/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2020-11-26 07:20:03.4948 124889/T14 Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-11-26 07:20:03.4948 124889/T14 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-11-26 07:20:05.0348 124889/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-11-26 07:20:53.7736 125117/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-11-26 07:20:53.7831 125120/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-11-26 07:20:53.7832 125120/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-11-26 07:20:53.8537 125120/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 125120
+App 125180 output: Warning: unable to write to /tmp/passenger.spawn.XXXXuY6Pyd/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335655.992)
+App 125180 output: Warning: unable to write to /tmp/passenger.spawn.XXXXuY6Pyd/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335655.993)
+App 125180 output: Warning: unable to write to /tmp/passenger.spawn.XXXXuY6Pyd/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335656.007)
+App 125180 output: Warning: unable to write to /tmp/passenger.spawn.XXXXuY6Pyd/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335656.008)
+App 125180 output: Warning: unable to write to /tmp/passenger.spawn.XXXXuY6Pyd/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335656.008)
+App 125180 output: 2020-11-26 07:20:56.174690: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+App 125180 output: 2020-11-26 07:20:56.197441: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3601000000 Hz
+App 125180 output: 2020-11-26 07:20:56.197863: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55d9b69037c0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+App 125180 output: 2020-11-26 07:20:56.197874: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+App 125180 output: Warning: unable to write to /tmp/passenger.spawn.XXXXuY6Pyd/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335656.215)
+App 125180 output: Warning: unable to write to /tmp/passenger.spawn.XXXXuY6Pyd/response/steps/subprocess_app_load_or_exec/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335656.216)
+App 125180 output: Warning: unable to write to /tmp/passenger.spawn.XXXXuY6Pyd/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335656.216)
+App 125180 output: (node:125180) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+App 125180 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 125180 output: Server started on port 3000...
+App 125180 output: Warning: unable to write to /tmp/passenger.spawn.XXXXuY6Pyd/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335656.218)
+App 125180 output: Warning: unable to write to /tmp/passenger.spawn.XXXXuY6Pyd/response/steps/subprocess_listen/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606335656.218)
+[ N 2020-11-26 07:20:57.1917 125120/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-11-26 07:21:19.6517 125120/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-11-26 07:21:19.6517 125120/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-11-26 07:21:19.6517 125120/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 125180, application /home/harrison/whoscatisthat (development)
+[ N 2020-11-26 07:21:19.6519 125120/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-11-26 07:21:19.6519 125120/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2020-11-26 07:21:19.6519 125120/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-11-26 07:21:19.6519 125120/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-11-26 07:21:19.6519 125120/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2020-11-26 07:21:19.6519 125120/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2020-11-26 07:21:19.6519 125120/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2020-11-26 07:21:19.6519 125120/T10 Ser/Server.h:901 ]: [ServerThr.15] Freed 0 spare client objects
+[ N 2020-11-26 07:21:19.6519 125120/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-11-26 07:21:19.6519 125120/Tw Ser/Server.h:901 ]: [ServerThr.13] Freed 0 spare client objects
+[ N 2020-11-26 07:21:19.6519 125120/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-11-26 07:21:19.6519 125120/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-11-26 07:21:19.6519 125120/T12 Ser/Server.h:901 ]: [ServerThr.16] Freed 0 spare client objects
+[ N 2020-11-26 07:21:19.6519 125120/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2020-11-26 07:21:19.6519 125120/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-11-26 07:21:19.6519 125120/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-11-26 07:21:19.6519 125120/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2020-11-26 07:21:19.6519 125120/Tv Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2020-11-26 07:21:19.6519 125120/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2020-11-26 07:21:19.6519 125120/T10 Ser/Server.h:558 ]: [ServerThr.15] Shutdown finished
+[ N 2020-11-26 07:21:19.6519 125120/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-11-26 07:21:19.6519 125120/Tw Ser/Server.h:558 ]: [ServerThr.13] Shutdown finished
+[ N 2020-11-26 07:21:19.6519 125120/T14 Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-11-26 07:21:19.6520 125120/T12 Ser/Server.h:558 ]: [ServerThr.16] Shutdown finished
+[ N 2020-11-26 07:21:19.6520 125120/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2020-11-26 07:21:19.6520 125120/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-11-26 07:21:19.6520 125120/Tv Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2020-11-26 07:21:19.6520 125120/Ty Ser/Server.h:901 ]: [ServerThr.14] Freed 0 spare client objects
+[ N 2020-11-26 07:21:19.6519 125120/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-11-26 07:21:19.6520 125120/T14 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-11-26 07:21:19.6519 125120/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2020-11-26 07:21:19.6520 125120/Ty Ser/Server.h:558 ]: [ServerThr.14] Shutdown finished
+[ N 2020-11-26 07:21:19.6521 125120/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-11-26 07:21:19.6521 125120/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2020-11-26 07:21:19.6521 125120/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 125180, application /home/harrison/whoscatisthat (development)
+[ N 2020-11-26 07:21:21.2757 125120/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-11-26 07:33:09.4963 126410/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-11-26 07:33:09.5062 126413/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-11-26 07:33:09.5063 126413/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-11-26 07:33:09.5574 126413/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 126413
+App 126473 output: Warning: unable to write to /tmp/passenger.spawn.XXXXNgs7PX/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606336391.715)
+App 126473 output: Warning: unable to write to /tmp/passenger.spawn.XXXXNgs7PX/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606336391.718)
+App 126473 output: Warning: unable to write to /tmp/passenger.spawn.XXXXNgs7PX/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606336391.738)
+App 126473 output: Warning: unable to write to /tmp/passenger.spawn.XXXXNgs7PX/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606336391.738)
+App 126473 output: Warning: unable to write to /tmp/passenger.spawn.XXXXNgs7PX/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606336391.739)
+App 126473 output: Warning: unable to write to /tmp/passenger.spawn.XXXXNgs7PX/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606336391.841)
+App 126473 output: Warning: unable to write to /tmp/passenger.spawn.XXXXNgs7PX/response/steps/subprocess_app_load_or_exec/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606336391.841)
+App 126473 output: Warning: unable to write to /tmp/passenger.spawn.XXXXNgs7PX/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606336391.841)
+App 126473 output: (node:126473) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+App 126473 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 126473 output: Server started on port 3000...
+App 126473 output: Warning: unable to write to /tmp/passenger.spawn.XXXXNgs7PX/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606336391.844)
+App 126473 output: Warning: unable to write to /tmp/passenger.spawn.XXXXNgs7PX/response/steps/subprocess_listen/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606336391.844)
+[ N 2020-11-26 07:33:13.0656 126413/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-11-26 07:33:28.5655 126413/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-11-26 07:33:28.5656 126413/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-11-26 07:33:28.5657 126413/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 126473, application /home/harrison/whoscatisthat (development)
+[ N 2020-11-26 07:33:28.5663 126413/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-11-26 07:33:28.5664 126413/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-11-26 07:33:28.5664 126413/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-11-26 07:33:28.5664 126413/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-11-26 07:33:28.5664 126413/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-11-26 07:33:28.5664 126413/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2020-11-26 07:33:28.5664 126413/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2020-11-26 07:33:28.5664 126413/Tt Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2020-11-26 07:33:28.5665 126413/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-11-26 07:33:28.5664 126413/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2020-11-26 07:33:28.5665 126413/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2020-11-26 07:33:28.5664 126413/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2020-11-26 07:33:28.5665 126413/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-11-26 07:33:28.5665 126413/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-11-26 07:33:28.5666 126413/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-11-26 07:33:28.5666 126413/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-11-26 07:33:28.5664 126413/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-11-26 07:33:28.5667 126413/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2020-11-26 07:33:28.5667 126413/T12 Ser/Server.h:901 ]: [ServerThr.16] Freed 0 spare client objects
+[ N 2020-11-26 07:33:28.5667 126413/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2020-11-26 07:33:28.5671 126413/T12 Ser/Server.h:558 ]: [ServerThr.16] Shutdown finished
+[ N 2020-11-26 07:33:28.5667 126413/Tt Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2020-11-26 07:33:28.5668 126413/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2020-11-26 07:33:28.5668 126413/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2020-11-26 07:33:28.5669 126413/Ty Ser/Server.h:901 ]: [ServerThr.14] Freed 0 spare client objects
+[ N 2020-11-26 07:33:28.5669 126413/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2020-11-26 07:33:28.5670 126413/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-11-26 07:33:28.5670 126413/Tw Ser/Server.h:901 ]: [ServerThr.13] Freed 0 spare client objects
+[ N 2020-11-26 07:33:28.5670 126413/T10 Ser/Server.h:901 ]: [ServerThr.15] Freed 0 spare client objects
+[ N 2020-11-26 07:33:28.5673 126413/Ty Ser/Server.h:558 ]: [ServerThr.14] Shutdown finished
+[ N 2020-11-26 07:33:28.5673 126413/T14 Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-11-26 07:33:28.5674 126413/Tw Ser/Server.h:558 ]: [ServerThr.13] Shutdown finished
+[ N 2020-11-26 07:33:28.5675 126413/T10 Ser/Server.h:558 ]: [ServerThr.15] Shutdown finished
+[ N 2020-11-26 07:33:28.5676 126413/T14 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-11-26 07:33:28.5680 126413/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 126473, application /home/harrison/whoscatisthat (development)
+[ N 2020-11-26 07:33:30.1314 126413/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-11-26 10:28:42.4317 148383/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-11-26 10:28:42.4415 148386/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-11-26 10:28:42.4415 148386/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-11-26 10:28:42.4885 148386/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 148386
+App 148446 output: Warning: unable to write to /tmp/passenger.spawn.XXXXXxkrRs/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606346924.616)
+App 148446 output: Warning: unable to write to /tmp/passenger.spawn.XXXXXxkrRs/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606346924.618)
+App 148446 output: Warning: unable to write to /tmp/passenger.spawn.XXXXXxkrRs/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606346924.634)
+App 148446 output: Warning: unable to write to /tmp/passenger.spawn.XXXXXxkrRs/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606346924.634)
+App 148446 output: Warning: unable to write to /tmp/passenger.spawn.XXXXXxkrRs/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606346924.634)
+App 148446 output: 2020-11-26 10:28:44.822556: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+App 148446 output: 2020-11-26 10:28:44.833122: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3601000000 Hz
+App 148446 output: 2020-11-26 10:28:44.833573: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55be1eb116d0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+App 148446 output: 2020-11-26 10:28:44.833583: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+App 148446 output: /home/harrison/whoscatisthat/app.js:24
+App 148446 output: const hash = crypto.createHmac('sha256', secret)
+App 148446 output:              ^
+App 148446 output: 
+App 148446 output: ReferenceError: crypto is not defined
+App 148446 output:     at Object.<anonymous> (/home/harrison/whoscatisthat/app.js:24:14)
+App 148446 output:     at Module._compile (node:internal/modules/cjs/loader:1102:14)
+App 148446 output:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+App 148446 output:     at Module.load (node:internal/modules/cjs/loader:967:32)
+App 148446 output:     at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+App 148446 output:     at Module.require (node:internal/modules/cjs/loader:991:19)
+App 148446 output:     at Module.require (/usr/lib/passenger/src/helper-scripts/node-loader.js:80:25)
+App 148446 output:     at require (node:internal/modules/cjs/helpers:92:18)
+App 148446 output:     at loadApplication (/usr/lib/passenger/src/helper-scripts/node-loader.js:243:2)
+App 148446 output:     at setupEnvironment (/usr/lib/passenger/src/helper-scripts/node-loader.js:214:2)
+[ E 2020-11-26 10:28:44.9222 148386/T17 age/Cor/App/Implementation.cpp:221 ]: Could not spawn process for application /home/harrison/whoscatisthat: The application process exited prematurely.
+  Error ID: b6d11eb7
+  Error details saved to: /tmp/passenger-error-Fx6aGt.html
+
+[ E 2020-11-26 10:28:44.9261 148386/T8 age/Cor/Con/CheckoutSession.cpp:274 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is b6d11eb7. Please see earlier logs for details about the error.
+[ N 2020-11-26 10:28:45.9366 148386/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-11-26 10:29:38.0047 148386/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-11-26 10:29:38.0049 148386/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-11-26 10:29:38.0050 148386/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-11-26 10:29:38.0051 148386/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-11-26 10:29:38.0051 148386/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-11-26 10:29:38.0051 148386/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-11-26 10:29:38.0051 148386/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-11-26 10:29:38.0051 148386/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2020-11-26 10:29:38.0052 148386/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2020-11-26 10:29:38.0052 148386/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-11-26 10:29:38.0051 148386/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-11-26 10:29:38.0052 148386/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2020-11-26 10:29:38.0051 148386/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-11-26 10:29:38.0052 148386/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2020-11-26 10:29:38.0052 148386/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-11-26 10:29:38.0052 148386/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-11-26 10:29:38.0053 148386/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-11-26 10:29:38.0053 148386/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2020-11-26 10:29:38.0053 148386/T10 Ser/Server.h:901 ]: [ServerThr.15] Freed 0 spare client objects
+[ N 2020-11-26 10:29:38.0053 148386/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2020-11-26 10:29:38.0054 148386/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-11-26 10:29:38.0054 148386/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2020-11-26 10:29:38.0055 148386/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2020-11-26 10:29:38.0055 148386/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2020-11-26 10:29:38.0056 148386/T10 Ser/Server.h:558 ]: [ServerThr.15] Shutdown finished
+[ N 2020-11-26 10:29:38.0056 148386/Tw Ser/Server.h:901 ]: [ServerThr.13] Freed 0 spare client objects
+[ N 2020-11-26 10:29:38.0056 148386/T12 Ser/Server.h:901 ]: [ServerThr.16] Freed 0 spare client objects
+[ N 2020-11-26 10:29:38.0056 148386/Ty Ser/Server.h:901 ]: [ServerThr.14] Freed 0 spare client objects
+[ N 2020-11-26 10:29:38.0057 148386/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2020-11-26 10:29:38.0057 148386/Tw Ser/Server.h:558 ]: [ServerThr.13] Shutdown finished
+[ N 2020-11-26 10:29:38.0057 148386/T12 Ser/Server.h:558 ]: [ServerThr.16] Shutdown finished
+[ N 2020-11-26 10:29:38.0057 148386/T14 Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-11-26 10:29:38.0058 148386/Ty Ser/Server.h:558 ]: [ServerThr.14] Shutdown finished
+[ N 2020-11-26 10:29:38.0058 148386/T14 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-11-26 10:29:38.0052 148386/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2020-11-26 10:29:38.0059 148386/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2020-11-26 10:29:38.9086 148618/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-11-26 10:29:38.9185 148621/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-11-26 10:29:38.9186 148621/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-11-26 10:29:38.9747 148621/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 148621
+[ N 2020-11-26 10:29:39.4447 148386/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+App 148686 output: Warning: unable to write to /tmp/passenger.spawn.XXXXq5caDc/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606346981.144)
+App 148686 output: Warning: unable to write to /tmp/passenger.spawn.XXXXq5caDc/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606346981.145)
+App 148686 output: Warning: unable to write to /tmp/passenger.spawn.XXXXq5caDc/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606346981.16)
+App 148686 output: Warning: unable to write to /tmp/passenger.spawn.XXXXq5caDc/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606346981.16)
+App 148686 output: Warning: unable to write to /tmp/passenger.spawn.XXXXq5caDc/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606346981.161)
+App 148686 output: 2020-11-26 10:29:41.332164: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+App 148686 output: 2020-11-26 10:29:41.341518: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3601000000 Hz
+App 148686 output: 2020-11-26 10:29:41.341906: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55ba164c7010 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+App 148686 output: 2020-11-26 10:29:41.341916: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+App 148686 output: Warning: unable to write to /tmp/passenger.spawn.XXXXq5caDc/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606346981.361)
+App 148686 output: Warning: unable to write to /tmp/passenger.spawn.XXXXq5caDc/response/steps/subprocess_app_load_or_exec/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606346981.361)
+App 148686 output: Warning: unable to write to /tmp/passenger.spawn.XXXXq5caDc/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606346981.361)
+App 148686 output: (node:148686) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+App 148686 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 148686 output: Server started on port 3000...
+App 148686 output: Warning: unable to write to /tmp/passenger.spawn.XXXXq5caDc/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606346981.363)
+App 148686 output: Warning: unable to write to /tmp/passenger.spawn.XXXXq5caDc/response/steps/subprocess_listen/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606346981.363)
+[ N 2020-11-26 10:29:42.2899 148621/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-11-26 10:31:34.7246 148621/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-11-26 10:31:34.7247 148621/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-11-26 10:31:34.7247 148621/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 148686, application /home/harrison/whoscatisthat (development)
+[ N 2020-11-26 10:31:34.7248 148621/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-11-26 10:31:34.7248 148621/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-11-26 10:31:34.7248 148621/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-11-26 10:31:34.7248 148621/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-11-26 10:31:34.7248 148621/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2020-11-26 10:31:34.7248 148621/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-11-26 10:31:34.7248 148621/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2020-11-26 10:31:34.7248 148621/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-11-26 10:31:34.7248 148621/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-11-26 10:31:34.7248 148621/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2020-11-26 10:31:34.7248 148621/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2020-11-26 10:31:34.7248 148621/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-11-26 10:31:34.7248 148621/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-11-26 10:31:34.7248 148621/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2020-11-26 10:31:34.7248 148621/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2020-11-26 10:31:34.7249 148621/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-11-26 10:31:34.7249 148621/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-11-26 10:31:34.7249 148621/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2020-11-26 10:31:34.7249 148621/Ty Ser/Server.h:901 ]: [ServerThr.14] Freed 0 spare client objects
+[ N 2020-11-26 10:31:34.7249 148621/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2020-11-26 10:31:34.7249 148621/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2020-11-26 10:31:34.7249 148621/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2020-11-26 10:31:34.7249 148621/Tw Ser/Server.h:901 ]: [ServerThr.13] Freed 0 spare client objects
+[ N 2020-11-26 10:31:34.7249 148621/T14 Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-11-26 10:31:34.7249 148621/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-11-26 10:31:34.7249 148621/Ty Ser/Server.h:558 ]: [ServerThr.14] Shutdown finished
+[ N 2020-11-26 10:31:34.7249 148621/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2020-11-26 10:31:34.7249 148621/Tw Ser/Server.h:558 ]: [ServerThr.13] Shutdown finished
+[ N 2020-11-26 10:31:34.7249 148621/T12 Ser/Server.h:901 ]: [ServerThr.16] Freed 0 spare client objects
+[ N 2020-11-26 10:31:34.7248 148621/T10 Ser/Server.h:901 ]: [ServerThr.15] Freed 0 spare client objects
+[ N 2020-11-26 10:31:34.7249 148621/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2020-11-26 10:31:34.7250 148621/T12 Ser/Server.h:558 ]: [ServerThr.16] Shutdown finished
+[ N 2020-11-26 10:31:34.7250 148621/T10 Ser/Server.h:558 ]: [ServerThr.15] Shutdown finished
+[ N 2020-11-26 10:31:34.7249 148621/T14 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-11-26 10:31:34.7250 148621/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 148686, application /home/harrison/whoscatisthat (development)
+[ N 2020-11-26 10:31:36.2699 148621/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-11-26 10:32:23.9594 149157/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-11-26 10:32:23.9704 149160/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-11-26 10:32:23.9705 149160/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-11-26 10:32:24.0319 149160/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 149160
+App 149220 output: Warning: unable to write to /tmp/passenger.spawn.XXXXbzj5nY/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347146.188)
+App 149220 output: Warning: unable to write to /tmp/passenger.spawn.XXXXbzj5nY/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347146.19)
+App 149220 output: Warning: unable to write to /tmp/passenger.spawn.XXXXbzj5nY/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347146.205)
+App 149220 output: Warning: unable to write to /tmp/passenger.spawn.XXXXbzj5nY/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347146.205)
+App 149220 output: Warning: unable to write to /tmp/passenger.spawn.XXXXbzj5nY/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347146.205)
+App 149220 output: 2020-11-26 10:32:26.383950: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+App 149220 output: 2020-11-26 10:32:26.394031: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3601000000 Hz
+App 149220 output: 2020-11-26 10:32:26.394437: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55de7e277890 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+App 149220 output: 2020-11-26 10:32:26.394447: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+App 149220 output: Warning: unable to write to /tmp/passenger.spawn.XXXXbzj5nY/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347146.415)
+App 149220 output: Warning: unable to write to /tmp/passenger.spawn.XXXXbzj5nY/response/steps/subprocess_app_load_or_exec/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347146.415)
+App 149220 output: Warning: unable to write to /tmp/passenger.spawn.XXXXbzj5nY/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347146.415)
+App 149220 output: (node:149220) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+App 149220 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 149220 output: Server started on port 3000...
+App 149220 output: Warning: unable to write to /tmp/passenger.spawn.XXXXbzj5nY/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347146.417)
+App 149220 output: Warning: unable to write to /tmp/passenger.spawn.XXXXbzj5nY/response/steps/subprocess_listen/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347146.418)
+[ N 2020-11-26 10:32:27.3582 149160/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-11-26 10:32:49.5426 149160/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-11-26 10:32:49.5426 149160/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-11-26 10:32:49.5426 149160/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 149220, application /home/harrison/whoscatisthat (development)
+[ N 2020-11-26 10:32:49.5427 149160/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-11-26 10:32:49.5427 149160/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-11-26 10:32:49.5427 149160/Td Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-11-26 10:32:49.5427 149160/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2020-11-26 10:32:49.5427 149160/Tp Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2020-11-26 10:32:49.5427 149160/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-11-26 10:32:49.5427 149160/Tv Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2020-11-26 10:32:49.5428 149160/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-11-26 10:32:49.5428 149160/Tr Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2020-11-26 10:32:49.5428 149160/T10 Ser/Server.h:901 ]: [ServerThr.15] Freed 0 spare client objects
+[ N 2020-11-26 10:32:49.5428 149160/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-11-26 10:32:49.5428 149160/Tz Ser/Server.h:901 ]: [ServerThr.14] Freed 0 spare client objects
+[ N 2020-11-26 10:32:49.5428 149160/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2020-11-26 10:32:49.5428 149160/Tp Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2020-11-26 10:32:49.5428 149160/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-11-26 10:32:49.5428 149160/Tv Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2020-11-26 10:32:49.5428 149160/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2020-11-26 10:32:49.5428 149160/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-11-26 10:32:49.5428 149160/Tr Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2020-11-26 10:32:49.5428 149160/T10 Ser/Server.h:558 ]: [ServerThr.15] Shutdown finished
+[ N 2020-11-26 10:32:49.5428 149160/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-11-26 10:32:49.5428 149160/Tz Ser/Server.h:558 ]: [ServerThr.14] Shutdown finished
+[ N 2020-11-26 10:32:49.5428 149160/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-11-26 10:32:49.5428 149160/T14 Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-11-26 10:32:49.5428 149160/Tx Ser/Server.h:901 ]: [ServerThr.13] Freed 0 spare client objects
+[ N 2020-11-26 10:32:49.5428 149160/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2020-11-26 10:32:49.5428 149160/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-11-26 10:32:49.5428 149160/T12 Ser/Server.h:901 ]: [ServerThr.16] Freed 0 spare client objects
+[ N 2020-11-26 10:32:49.5428 149160/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-11-26 10:32:49.5427 149160/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2020-11-26 10:32:49.5429 149160/T14 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-11-26 10:32:49.5429 149160/Tx Ser/Server.h:558 ]: [ServerThr.13] Shutdown finished
+[ N 2020-11-26 10:32:49.5429 149160/T12 Ser/Server.h:558 ]: [ServerThr.16] Shutdown finished
+[ N 2020-11-26 10:32:49.5429 149160/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2020-11-26 10:32:49.5430 149160/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 149220, application /home/harrison/whoscatisthat (development)
+[ N 2020-11-26 10:32:51.0605 149160/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-11-26 10:43:04.4735 150728/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-11-26 10:43:04.4829 150731/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-11-26 10:43:04.4830 150731/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-11-26 10:43:04.5347 150731/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 150731
+App 150791 output: Warning: unable to write to /tmp/passenger.spawn.XXXXwIxKwL/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347786.678)
+App 150791 output: Warning: unable to write to /tmp/passenger.spawn.XXXXwIxKwL/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347786.68)
+App 150791 output: Warning: unable to write to /tmp/passenger.spawn.XXXXwIxKwL/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347786.694)
+App 150791 output: Warning: unable to write to /tmp/passenger.spawn.XXXXwIxKwL/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347786.695)
+App 150791 output: Warning: unable to write to /tmp/passenger.spawn.XXXXwIxKwL/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347786.695)
+App 150791 output: 2020-11-26 10:43:06.868537: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+App 150791 output: 2020-11-26 10:43:06.878019: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3601000000 Hz
+App 150791 output: 2020-11-26 10:43:06.878437: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5579da62d6d0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+App 150791 output: 2020-11-26 10:43:06.878451: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+App 150791 output: Warning: unable to write to /tmp/passenger.spawn.XXXXwIxKwL/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347786.898)
+App 150791 output: Warning: unable to write to /tmp/passenger.spawn.XXXXwIxKwL/response/steps/subprocess_app_load_or_exec/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347786.898)
+App 150791 output: Warning: unable to write to /tmp/passenger.spawn.XXXXwIxKwL/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347786.898)
+App 150791 output: (node:150791) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+App 150791 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 150791 output: Server started on port 3000...
+App 150791 output: Warning: unable to write to /tmp/passenger.spawn.XXXXwIxKwL/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347786.9)
+App 150791 output: Warning: unable to write to /tmp/passenger.spawn.XXXXwIxKwL/response/steps/subprocess_listen/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606347786.9)
+[ N 2020-11-26 10:43:07.8557 150731/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-11-26 10:53:47.4795 150731/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-11-26 10:53:47.4796 150731/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-11-26 10:53:47.4797 150731/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 150791, application /home/harrison/whoscatisthat (development)
+[ N 2020-11-26 10:53:47.4801 150731/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-11-26 10:53:47.4801 150731/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-11-26 10:53:47.4801 150731/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-11-26 10:53:47.4801 150731/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-11-26 10:53:47.4802 150731/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-11-26 10:53:47.4802 150731/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-11-26 10:53:47.4802 150731/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-11-26 10:53:47.4802 150731/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-11-26 10:53:47.4802 150731/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-11-26 10:53:47.4802 150731/Tz Ser/Server.h:901 ]: [ServerThr.14] Freed 0 spare client objects
+[ N 2020-11-26 10:53:47.4802 150731/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-11-26 10:53:47.4803 150731/Tz Ser/Server.h:558 ]: [ServerThr.14] Shutdown finished
+[ N 2020-11-26 10:53:47.4803 150731/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-11-26 10:53:47.4803 150731/T10 Ser/Server.h:901 ]: [ServerThr.15] Freed 0 spare client objects
+[ N 2020-11-26 10:53:47.4803 150731/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-11-26 10:53:47.4804 150731/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2020-11-26 10:53:47.4803 150731/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2020-11-26 10:53:47.4804 150731/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2020-11-26 10:53:47.4804 150731/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2020-11-26 10:53:47.4804 150731/T10 Ser/Server.h:558 ]: [ServerThr.15] Shutdown finished
+[ N 2020-11-26 10:53:47.4805 150731/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2020-11-26 10:53:47.4804 150731/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2020-11-26 10:53:47.4805 150731/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2020-11-26 10:53:47.4805 150731/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2020-11-26 10:53:47.4805 150731/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2020-11-26 10:53:47.4805 150731/T14 Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-11-26 10:53:47.4805 150731/Tw Ser/Server.h:901 ]: [ServerThr.13] Freed 0 spare client objects
+[ N 2020-11-26 10:53:47.4806 150731/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2020-11-26 10:53:47.4806 150731/T14 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-11-26 10:53:47.4806 150731/Tw Ser/Server.h:558 ]: [ServerThr.13] Shutdown finished
+[ N 2020-11-26 10:53:47.4807 150731/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2020-11-26 10:53:47.4807 150731/T12 Ser/Server.h:901 ]: [ServerThr.16] Freed 0 spare client objects
+[ N 2020-11-26 10:53:47.4807 150731/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2020-11-26 10:53:47.4807 150731/T12 Ser/Server.h:558 ]: [ServerThr.16] Shutdown finished
+[ N 2020-11-26 10:53:47.4810 150731/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 150791, application /home/harrison/whoscatisthat (development)
+[ N 2020-11-26 10:53:49.0059 152711/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-11-26 10:53:49.0157 152714/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-11-26 10:53:49.0158 152714/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-11-26 10:53:49.0376 150731/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-11-26 10:53:49.0626 152714/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 152714
+App 152779 output: Warning: unable to write to /tmp/passenger.spawn.XXXXLXCr4I/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348431.196)
+App 152779 output: Warning: unable to write to /tmp/passenger.spawn.XXXXLXCr4I/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348431.198)
+App 152779 output: Warning: unable to write to /tmp/passenger.spawn.XXXXLXCr4I/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348431.218)
+App 152779 output: Warning: unable to write to /tmp/passenger.spawn.XXXXLXCr4I/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348431.218)
+App 152779 output: Warning: unable to write to /tmp/passenger.spawn.XXXXLXCr4I/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348431.218)
+App 152779 output: 2020-11-26 10:53:51.398883: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+App 152779 output: 2020-11-26 10:53:51.422757: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3601000000 Hz
+App 152779 output: 2020-11-26 10:53:51.423264: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x562efed574f0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+App 152779 output: 2020-11-26 10:53:51.423280: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+App 152779 output: Warning: unable to write to /tmp/passenger.spawn.XXXXLXCr4I/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348431.444)
+App 152779 output: Warning: unable to write to /tmp/passenger.spawn.XXXXLXCr4I/response/steps/subprocess_app_load_or_exec/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348431.444)
+App 152779 output: Warning: unable to write to /tmp/passenger.spawn.XXXXLXCr4I/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348431.444)
+App 152779 output: (node:152779) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+App 152779 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 152779 output: Server started on port 3000...
+App 152779 output: Warning: unable to write to /tmp/passenger.spawn.XXXXLXCr4I/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348431.446)
+App 152779 output: Warning: unable to write to /tmp/passenger.spawn.XXXXLXCr4I/response/steps/subprocess_listen/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348431.446)
+[ N 2020-11-26 10:53:52.3177 152714/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-11-26 10:54:01.3406 152714/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-11-26 10:54:01.3407 152714/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-11-26 10:54:01.3408 152714/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 152779, application /home/harrison/whoscatisthat (development)
+[ N 2020-11-26 10:54:01.3413 152714/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-11-26 10:54:01.3413 152714/Tf Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-11-26 10:54:01.3413 152714/Th Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-11-26 10:54:01.3413 152714/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-11-26 10:54:01.3413 152714/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-11-26 10:54:01.3413 152714/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-11-26 10:54:01.3414 152714/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-11-26 10:54:01.3413 152714/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2020-11-26 10:54:01.3413 152714/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-11-26 10:54:01.3413 152714/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2020-11-26 10:54:01.3414 152714/Th Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-11-26 10:54:01.3414 152714/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2020-11-26 10:54:01.3414 152714/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-11-26 10:54:01.3414 152714/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2020-11-26 10:54:01.3414 152714/T11 Ser/Server.h:901 ]: [ServerThr.15] Freed 0 spare client objects
+[ N 2020-11-26 10:54:01.3414 152714/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2020-11-26 10:54:01.3414 152714/Tz Ser/Server.h:901 ]: [ServerThr.14] Freed 0 spare client objects
+[ N 2020-11-26 10:54:01.3414 152714/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2020-11-26 10:54:01.3414 152714/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2020-11-26 10:54:01.3415 152714/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2020-11-26 10:54:01.3415 152714/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2020-11-26 10:54:01.3415 152714/T11 Ser/Server.h:558 ]: [ServerThr.15] Shutdown finished
+[ N 2020-11-26 10:54:01.3415 152714/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2020-11-26 10:54:01.3415 152714/Tz Ser/Server.h:558 ]: [ServerThr.14] Shutdown finished
+[ N 2020-11-26 10:54:01.3416 152714/T12 Ser/Server.h:901 ]: [ServerThr.16] Freed 0 spare client objects
+[ N 2020-11-26 10:54:01.3414 152714/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-11-26 10:54:01.3416 152714/T12 Ser/Server.h:558 ]: [ServerThr.16] Shutdown finished
+[ N 2020-11-26 10:54:01.3414 152714/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2020-11-26 10:54:01.3416 152714/Tw Ser/Server.h:901 ]: [ServerThr.13] Freed 0 spare client objects
+[ N 2020-11-26 10:54:01.3416 152714/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-11-26 10:54:01.3416 152714/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2020-11-26 10:54:01.3416 152714/T14 Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-11-26 10:54:01.3416 152714/Tw Ser/Server.h:558 ]: [ServerThr.13] Shutdown finished
+[ N 2020-11-26 10:54:01.3417 152714/T14 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-11-26 10:54:01.3419 152714/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 152779, application /home/harrison/whoscatisthat (development)
+[ N 2020-11-26 10:54:02.8824 152714/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-11-26 10:55:56.2247 153169/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-11-26 10:55:56.2341 153172/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-11-26 10:55:56.2342 153172/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-11-26 10:55:56.2871 153172/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 153172
+App 153232 output: Warning: unable to write to /tmp/passenger.spawn.XXXXFpEzFj/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348558.394)
+App 153232 output: Warning: unable to write to /tmp/passenger.spawn.XXXXFpEzFj/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348558.395)
+App 153232 output: Warning: unable to write to /tmp/passenger.spawn.XXXXFpEzFj/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348558.41)
+App 153232 output: Warning: unable to write to /tmp/passenger.spawn.XXXXFpEzFj/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348558.41)
+App 153232 output: Warning: unable to write to /tmp/passenger.spawn.XXXXFpEzFj/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348558.41)
+App 153232 output: 2020-11-26 10:55:58.578496: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+App 153232 output: 2020-11-26 10:55:58.587877: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3601000000 Hz
+App 153232 output: 2020-11-26 10:55:58.588284: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55dbeab81f70 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+App 153232 output: 2020-11-26 10:55:58.588294: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+App 153232 output: Warning: unable to write to /tmp/passenger.spawn.XXXXFpEzFj/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348558.607)
+App 153232 output: Warning: unable to write to /tmp/passenger.spawn.XXXXFpEzFj/response/steps/subprocess_app_load_or_exec/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348558.607)
+App 153232 output: Warning: unable to write to /tmp/passenger.spawn.XXXXFpEzFj/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348558.607)
+App 153232 output: (node:153232) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+App 153232 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 153232 output: Server started on port 3000...
+App 153232 output: Warning: unable to write to /tmp/passenger.spawn.XXXXFpEzFj/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348558.609)
+App 153232 output: Warning: unable to write to /tmp/passenger.spawn.XXXXFpEzFj/response/steps/subprocess_listen/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348558.609)
+[ N 2020-11-26 10:55:59.6164 153172/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-11-26 10:57:54.3909 153172/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-11-26 10:57:54.3909 153172/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-11-26 10:57:54.3910 153172/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 153232, application /home/harrison/whoscatisthat (development)
+[ N 2020-11-26 10:57:54.3911 153172/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-11-26 10:57:54.3911 153172/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2020-11-26 10:57:54.3911 153172/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-11-26 10:57:54.3911 153172/Th Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-11-26 10:57:54.3911 153172/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2020-11-26 10:57:54.3911 153172/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2020-11-26 10:57:54.3911 153172/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2020-11-26 10:57:54.3911 153172/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-11-26 10:57:54.3911 153172/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2020-11-26 10:57:54.3911 153172/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2020-11-26 10:57:54.3911 153172/Tw Ser/Server.h:901 ]: [ServerThr.13] Freed 0 spare client objects
+[ N 2020-11-26 10:57:54.3911 153172/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-11-26 10:57:54.3912 153172/Tw Ser/Server.h:558 ]: [ServerThr.13] Shutdown finished
+[ N 2020-11-26 10:57:54.3911 153172/Th Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-11-26 10:57:54.3911 153172/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2020-11-26 10:57:54.3911 153172/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2020-11-26 10:57:54.3911 153172/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2020-11-26 10:57:54.3911 153172/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-11-26 10:57:54.3911 153172/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-11-26 10:57:54.3911 153172/T10 Ser/Server.h:901 ]: [ServerThr.15] Freed 0 spare client objects
+[ N 2020-11-26 10:57:54.3912 153172/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-11-26 10:57:54.3912 153172/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2020-11-26 10:57:54.3912 153172/Ty Ser/Server.h:901 ]: [ServerThr.14] Freed 0 spare client objects
+[ N 2020-11-26 10:57:54.3912 153172/T12 Ser/Server.h:901 ]: [ServerThr.16] Freed 0 spare client objects
+[ N 2020-11-26 10:57:54.3912 153172/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-11-26 10:57:54.3912 153172/T10 Ser/Server.h:558 ]: [ServerThr.15] Shutdown finished
+[ N 2020-11-26 10:57:54.3912 153172/Ty Ser/Server.h:558 ]: [ServerThr.14] Shutdown finished
+[ N 2020-11-26 10:57:54.3912 153172/T12 Ser/Server.h:558 ]: [ServerThr.16] Shutdown finished
+[ N 2020-11-26 10:57:54.3911 153172/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2020-11-26 10:57:54.3911 153172/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-11-26 10:57:54.3912 153172/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2020-11-26 10:57:54.3912 153172/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-11-26 10:57:54.3913 153172/T14 Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-11-26 10:57:54.3913 153172/T14 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-11-26 10:57:54.3914 153172/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 153232, application /home/harrison/whoscatisthat (development)
+[ N 2020-11-26 10:57:55.9390 153172/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-11-26 10:57:56.4488 153719/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-11-26 10:57:56.4583 153722/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-11-26 10:57:56.4584 153722/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-11-26 10:57:56.5211 153722/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 153722
+App 153783 output: Warning: unable to write to /tmp/passenger.spawn.XXXXiTNolU/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348678.658)
+App 153783 output: Warning: unable to write to /tmp/passenger.spawn.XXXXiTNolU/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348678.659)
+App 153783 output: Warning: unable to write to /tmp/passenger.spawn.XXXXiTNolU/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348678.675)
+App 153783 output: Warning: unable to write to /tmp/passenger.spawn.XXXXiTNolU/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348678.675)
+App 153783 output: Warning: unable to write to /tmp/passenger.spawn.XXXXiTNolU/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348678.675)
+App 153783 output: 2020-11-26 10:57:58.852954: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+App 153783 output: 2020-11-26 10:57:58.862428: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3601000000 Hz
+App 153783 output: 2020-11-26 10:57:58.862811: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x562b35cf1760 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+App 153783 output: 2020-11-26 10:57:58.862822: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+App 153783 output: Warning: unable to write to /tmp/passenger.spawn.XXXXiTNolU/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348678.882)
+App 153783 output: Warning: unable to write to /tmp/passenger.spawn.XXXXiTNolU/response/steps/subprocess_app_load_or_exec/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348678.882)
+App 153783 output: Warning: unable to write to /tmp/passenger.spawn.XXXXiTNolU/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348678.882)
+App 153783 output: (node:153783) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+App 153783 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 153783 output: Server started on port 3000...
+App 153783 output: Warning: unable to write to /tmp/passenger.spawn.XXXXiTNolU/response/steps/subprocess_listen/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348678.884)
+App 153783 output: Warning: unable to write to /tmp/passenger.spawn.XXXXiTNolU/response/steps/subprocess_listen/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1606348678.885)
+[ N 2020-11-26 10:57:59.8314 153722/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
