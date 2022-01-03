@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R,L]
+PassengerEnabled on
+PassengerAppEnv production
+PassengerAppRoot /var/www/html
+PassengerStartupFile index.js
+PassengerNodejs /home/cat/.nvm/versions/node/v16.13.1/bin/node
+PassengerAppType node
