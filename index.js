@@ -120,7 +120,7 @@ app.post("/upload", upload, function(req, res) {
             }
           }
         );
-        fs.rmdir(
+        fs.rm(
           "./public/uploads/" + req.files.file.uuid,
           { recursive: true },
           function(err) {
@@ -142,7 +142,7 @@ app.post("/upload", upload, function(req, res) {
             }
           }
         );
-        fs.rmdir(
+        fs.rm(
           "./public/uploads/" + req.files.file.uuid,
           { recursive: true },
           function(err) {
